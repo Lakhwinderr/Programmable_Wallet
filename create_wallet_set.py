@@ -5,7 +5,7 @@ url = "https://api.circle.com/v1/w3s/developer/walletSets"
 
 esc = generate_entity_secret_ciphertext.esc
 uuid = uuid_1.uuid
-apiKey = "TEST_API_KEY:f957d16d834eb700d2ad81a672ddcb45:1697e1f073a52d9ff872e3008f4679b2"
+apiKey = "$ENV_API_KEY:ID:SECRET$"
 payload = {
     "idempotencyKey": uuid,
     "entitySecretCiphertext": esc
