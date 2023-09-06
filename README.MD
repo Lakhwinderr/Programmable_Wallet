@@ -53,5 +53,10 @@ python get_wallet_set.py
 
 13. Yay! You just transferred your first wallet tokens to your wallet. You can use these to transfer balance to other wallets as well. Refer [docs](https://developers.circle.com/w3s/reference/createdeveloperwallet) to know more.
 
-14. Other python scripts are available to check individual wallet set and wallet info. Please go through the official documention on the Circle's official Website.
+14. To check balance run this python script:
+```
+python check_wallet_balance.py
+```
+![Alt text](image-3.png)
+15. Other python scripts are available to check individual wallet set and wallet info. Please go through the official documention on the Circle's official Website.
 
